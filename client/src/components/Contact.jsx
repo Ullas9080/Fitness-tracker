@@ -19,6 +19,7 @@ const Contact = () => {
               type="text"
               className="p-2 border border-gray-300 rounded-lg"
               placeholder="Your Name"
+              value="Abhi"
             />
           </div>
 
@@ -31,18 +32,18 @@ const Contact = () => {
               type="email"
               className="p-2 border border-gray-300 rounded-lg"
               placeholder="Your Email"
+              value="abhiraj@gmail.com"
             />
           </div>
 
           <div className="flex flex-col">
             <label className="text-gray-700" htmlFor="message">
-              Message
+              Contact
             </label>
-            <textarea
-              id="message"
+        <input type="text" 
               className="p-2 border border-gray-300 rounded-lg"
-              placeholder="Your Message"
-            ></textarea>
+              
+              value="9938634125"/>
           </div>
 
           <button type="submit" className="w-full p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
