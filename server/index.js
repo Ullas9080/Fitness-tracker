@@ -3,7 +3,7 @@ import express from "express";
 import * as dotenv from "dotenv";
 import cors from "cors";
 import mongoose from "mongoose";
-import UserRoutes from "../routes/User.js"; 
+import UserRoutes from "./routes/User.js"; 
 
 dotenv.config();
 
@@ -45,7 +45,6 @@ const connectDB = async () => {
 };
 
 
-export default async function handler(req, res) {
-  await connectDB(); 
-  return app(req, res); 
-}
+connectDB()
+
+ export default app
