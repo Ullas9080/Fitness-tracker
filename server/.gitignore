@@ -2,7 +2,8 @@
 .env
 .env.local
 .env.*.local
-
+node_modules
+package-lock-jsona
 # Google API credentials
 client_secret.json
 credentials.json
